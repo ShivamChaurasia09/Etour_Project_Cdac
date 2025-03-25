@@ -1,0 +1,116 @@
+INSERT INTO subcategorymaster (flag, subCatId, subCatImagePath, subCatName, catMasterId) 
+VALUES 
+(b'1', 'EU', 'https://theportablewife.com/wp-content/uploads/must-see-cities-for-first-time-in-europe-vienna.jpg', 'Europe', 1),
+(b'1', 'AF', 'https://static.toiimg.com/thumb/msid-93644560,width-748,height-499,resizemode=4,imgsize-174636/.jpg', 'Africa', 1),
+(b'1', 'AS', 'https://www.enrealexperttravel.com/uploads/4/3/1/6/43165101/cambodia.jpg', 'Asia', 1),
+(b'1', 'KA', 'https://www.khyberhotels.com/blog/wp-content/uploads/2023/10/winter-kashmir-1024x562.jpg', 'Kashmir', 2),
+(b'1', 'NE', 'https://www.enrealexperttravel.com/uploads/4/3/1/6/43165101/cambodia.jpg', 'Northeast', 2),
+(b'1', 'SO', 'https://travelogyindia.b-cdn.net/storage/app/upload/culture-dance-south-india.jpg', 'South', 2),
+(b'1', 'SA', 'https://www.travelandleisure.com/thmb/yTXraNrnwAhrDXxesOyo_9hGglE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/safari-truck-giraffes-micato-safaris-SAFARIGUIDETIPS0721-2549bb165aa34dc193cb8b6f3958654b.jpg', 'Safari', 3),
+(b'1', 'TR', 'https://images.pexels.com/photos/914128/pexels-photo-914128.jpeg?cs=srgb&dl=pexels-saikat-ghosh-323099-914128.jpg&fm=jpg', 'Trekking', 3),
+(b'1', 'RA', 'https://t4.ftcdn.net/jpg/04/79/19/09/360_F_479190950_ehyNejlVKUUivATwpT4ZifgWIpUE9FAT.jpg', 'Rafting', 3);
+
+
+
+INSERT INTO itenaryMaster (ItenaryId, Description, dayNo, images, tour_id, detailsEs, detailsFr, detailsHi, detailsMr) VALUES
+(1, 'Arrival in France. Welcome dinner and leisure. Rest day.', 1, 'https://media.easemytrip.com/media/Deal/DL637829555713540484/SightSeeing/SightSeeing2B540C.jpg', 1, 
+ 'Llegada a Francia. Cena de bienvenida y ocio. Día de descanso.', 
+ 'Arrivée en France. Dîner de bienvenue et loisirs. Journée de repos.', 
+ 'फ्रांस में आगमन। स्वागत रात्रिभोज और अवकाश। विश्राम दिवस।', 
+ 'फ्रान्समध्ये आगमन. स्वागत डिनर आणि विश्रांती. विश्रांतीचा दिवस.'),
+
+(2, 'Paris city tour: Visit Eiffel Tower, Louvre Museum, and other famous landmarks.', 2, 'https://media1.thrillophilia.com/filestore/zuyw04np9ginyhn5mw0l9195tgfh_shutterstock_1836209686.jpg', 1, 
+ 'Recorrido por la ciudad de París: Visita la Torre Eiffel, el Museo del Louvre y otros lugares famosos.', 
+ 'Visite de la ville de Paris : Visitez la Tour Eiffel, le Musée du Louvre et d\'autres sites célèbres.', 
+ 'पेरिस शहर यात्रा: एफिल टॉवर, लौवर संग्रहालय और अन्य प्रसिद्ध स्थलों की यात्रा करें।', 
+ 'पॅरिस शहर फेरफटका: आयफेल टॉवर, लुव्हर संग्रहालय आणि इतर प्रसिद्ध ठिकाणांना भेट द्या.'),
+
+(3, 'Day trip to Versailles Palace and gardens.', 3, 'https://seoimgak.mmtcdn.com/blog/sites/default/files/hero-1_27.jpg', 1, 
+ 'Excursión de un día al Palacio de Versalles y sus jardines.', 
+ 'Excursion d\'une journée au château de Versailles et à ses jardins.', 
+ 'वर्साय पैलेस और उसके बगीचों की एक दिन की यात्रा।', 
+ 'व्हर्साय पॅलेस आणि त्याच्या बागांची एक दिवसाची सहल.'),
+
+(4, 'Leisure day with shopping and sightseeing in Paris.', 4, 'https://www.savoredjourneys.com/wp-content/uploads/2019/05/2-week-europe-itinerary-first.jpg', 1, 
+ 'Día libre con compras y turismo en París.', 
+ 'Journée libre avec shopping et visites touristiques à Paris.', 
+ 'पेरिस में खरीदारी और दर्शनीय स्थलों की यात्रा के साथ अवकाश दिवस।', 
+ 'पॅरिसमध्ये खरेदी आणि पर्यटनासह विश्रांतीचा दिवस.'),
+
+(5, 'Travel to Nice and visit Promenade des Anglais.', 5, 'https://finduslost.com/wp-content/uploads/2019/09/3-Month-Europe-Road-Trip-Itinerary-Find-Us-Lost-4305-3.jpg', 1, 
+ 'Viaje a Niza y visita a la Promenade des Anglais.', 
+ 'Voyage à Nice et visite de la Promenade des Anglais.', 
+ 'नीस की यात्रा और प्रोमेनेड डेस अंग्लेस की यात्रा।', 
+ 'नीसला प्रवास आणि प्रोमेनेड डेस अँग्लेसला भेट.'),
+
+(6, 'Exploring the beaches and local culture of Nice.', 6, 'https://travelmelodies.com/wp-content/uploads/2022/10/positano-amalfi-coast-italy.jpg', 1, 
+ 'Exploración de las playas y la cultura local de Niza.', 
+ 'Exploration des plages et de la culture locale de Nice.', 
+ 'नीस के समुद्र तटों और स्थानीय संस्कृति की खोज।', 
+ 'नीसच्या समुद्रकिनारे आणि स्थानिक संस्कृतीचा शोध.'),
+
+(7, 'Departure from Nice.', 7, 'https://media.nomadicmatt.com/europeguide.jpg', 1, 
+ 'Salida de Niza.', 
+ 'Départ de Nice.', 
+ 'नीस से प्रस्थान।', 
+ 'नीसहून प्रयाण.'),
+
+(8, 'Arrival in Rome, check-in to hotel and leisure time.', 1, 'https://www.state.gov/wp-content/uploads/2019/04/shutterstock_1483337930v2-2107x1406-1.jpg', 2, NULL, NULL, NULL, NULL),
+
+(9, 'Rome city tour: Colosseum, Roman Forum, and Palatine Hill.', 2, 'https://www.state.gov/wp-content/uploads/2019/04/shutterstock_1483337930v2-2107x1406-1.jpg', 2, NULL, NULL, NULL, NULL),
+
+(10, 'Vatican City: St. Peter\'s Basilica, Sistine Chapel.', 3, 'https://www.state.gov/wp-content/uploads/2019/04/shutterstock_1483337930v2-2107x1406-1.jpg', 2, NULL, NULL, NULL, NULL),
+
+(11, 'Travel to Florence, visit the Duomo and Ponte Vecchio.', 4, 'https://www.state.gov/wp-content/uploads/2019/04/shutterstock_1483337930v2-2107x1406-1.jpg', 2, NULL, NULL, NULL, NULL),
+
+(12, 'Day trip to Pisa to see the Leaning Tower.', 5, 'https://www.state.gov/wp-content/uploads/2019/04/shutterstock_1483337930v2-2107x1406-1.jpg', 2, NULL, NULL, NULL, NULL),
+
+(13, 'Visit Venice: Gondola ride and St. Mark\'s Square.', 6, 'https://www.state.gov/wp-content/uploads/2019/04/shutterstock_1483337930v2-2107x1406-1.jpg', 2, NULL, NULL, NULL, NULL),
+
+(14, 'Milan: Shopping and leisure before departure.', 7, 'https://www.state.gov/wp-content/uploads/2019/04/shutterstock_1483337930v2-2107x1406-1.jpg', 2, NULL, NULL, NULL, NULL),
+
+(15, 'Departure from Milan.', 8, 'https://www.state.gov/wp-content/uploads/2019/04/shutterstock_1483337930v2-2107x1406-1.jpg', 2, NULL, NULL, NULL, NULL),
+
+(16, 'Arrival in Cairo. Visit to Giza Pyramids and Sphinx.', 1, 'https://www.state.gov/wp-content/uploads/2019/04/shutterstock_1483337930v2-2107x1406-1.jpg', 3, NULL, NULL, NULL, NULL),
+
+(17, 'Explore the Egyptian Museum and other historical sites.', 2, 'https://www.state.gov/wp-content/uploads/2019/04/shutterstock_1483337930v2-2107x1406-1.jpg', 3, NULL, NULL, NULL, NULL),
+
+(18, 'Travel to Luxor: Visit Valley of the Kings and Karnak Temple.', 3, 'https://www.state.gov/wp-content/uploads/2019/04/shutterstock_1483337930v2-2107x1406-1.jpg', 3, NULL, NULL, NULL, NULL);
+
+
+
+
+INSERT INTO costMaster (CostId, TwinSharingcost, childWithBed, childWitoutBed, extraPersonCost, tourId, singlePersonCost) VALUES
+(1, 207500, 31125, 10375, 103750, 1, 21000),
+(2, 258750, 149400, 99600, 74700, 2, 21000),
+(3, 249000, 182600, 124500, 83000, 3, 21000),
+(4, 207500, 166000, 107900, 78875, 4, 21000),
+(5, 166000, 124500, 83000, 66400, 5, 21000),
+(6, 249000, 186900, 124500, 84175, 6, 21000),
+(7, 182600, 133000, 91300, 70550, 7, 21000),
+(8, 199200, 141100, 99600, 74700, 8, 21000),
+(9, 184426, 183513, 100996, 249917, 9, 21000);
+
+
+
+INSERT INTO departuredates (id, enddate, startdate, tour_id) VALUES
+(1, '2025-06-10 00:00:00.000000', '2025-06-03 00:00:00.000000', 1),
+(2, '2025-06-22 00:00:00.000000', '2025-06-15 00:00:00.000000', 1),
+(3, '2025-07-08 00:00:00.000000', '2025-07-01 00:00:00.000000', 1),
+(4, '2025-07-15 00:00:00.000000', '2025-07-05 00:00:00.000000', 1),
+(5, '2025-07-30 00:00:00.000000', '2025-07-20 00:00:00.000000', 1),
+(6, '2025-08-11 00:00:00.000000', '2025-08-01 00:00:00.000000', 1),
+(7, '2025-06-15 00:00:00.000000', '2025-06-05 00:00:00.000000', 2),
+(8, '2025-06-30 00:00:00.000000', '2025-06-20 00:00:00.000000', 2),
+(9, '2025-07-11 00:00:00.000000', '2025-07-01 00:00:00.000000', 2),
+(10, '2025-07-30 00:00:00.000000', '2025-07-10 00:00:00.000000', 2),
+(11, '2025-08-25 00:00:00.000000', '2025-08-05 00:00:00.000000', 2),
+(12, '2025-09-21 00:00:00.000000', '2025-09-01 00:00:00.000000', 2),
+(13, '2025-06-10 00:00:00.000000', '2025-06-04 00:00:00.000000', 9),
+(14, '2025-06-22 00:00:00.000000', '2025-06-16 00:00:00.000000', 9),
+(15, '2025-07-08 00:00:00.000000', '2025-07-02 00:00:00.000000', 9),
+(16, '2025-07-15 00:00:00.000000', '2025-07-09 00:00:00.000000', 9),
+(17, '2025-07-30 00:00:00.000000', '2025-07-24 00:00:00.000000', 9),
+(18, '2025-08-11 00:00:00.000000', '2025-08-05 00:00:00.000000', 9);
+
+
